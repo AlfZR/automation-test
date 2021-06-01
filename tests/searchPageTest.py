@@ -23,7 +23,6 @@ class SearchTest(unittest.TestCase):
         self.assertEqual(msg, 'Search cannot be empty.')
         sleep(5)
         print('Empty query validated')
-        
 
     def test_two_batman_flow(self):
         self.driver.get('http://localhost:3000/shows')
@@ -38,6 +37,6 @@ class SearchTest(unittest.TestCase):
         sleep(3)
         print('Flow complete')
         
-        
+
 if __name__ == '__main__':
     unittest.main()
