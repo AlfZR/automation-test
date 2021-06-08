@@ -1,3 +1,4 @@
+# Overview
 This test project was made with python, selenium, and page object model.
 
 # Instructions
@@ -12,7 +13,7 @@ First, a quickly overview of the app, which consists of a simple api searching f
 
 Access to http://localhost:3000/shows
 
-### Run
+### Run the tests
 
 To run the test simply head to the test folder and run the searchPageTest.py file.
 
